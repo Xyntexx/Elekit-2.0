@@ -1,0 +1,9 @@
+Archive:  db/12897.zip
+  inflating: db/12897/Sheet_1_2022-10-19.schdoc  
+Loading Sheet_1_2022-10-19.schdoc
+Done.
+Handling Sheet_1_2022-10-19.schdoc
+No unpacked .PcbDoc documents found. Trying to unpack it:
+Loading Sheet_1_2022-10-19.schdoc
+Done.
+There were no unpacked PcbDoc files found.
