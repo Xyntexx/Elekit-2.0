@@ -1,3 +1,3 @@
 (fp_lib_table
-  (lib (name "Footprint Libaries")(type "KiCad")(uri "${KIPRJMOD}/libs/Footprint Libaries")(options "")(descr ""))
+  (lib (name "0_JLCPCB_Footprints")(type "KiCad")(uri "${KIPRJMOD}/libs/0_JLCPCB_Footprints")(options "")(descr ""))
 )

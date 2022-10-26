@@ -1,0 +1,3 @@
+[submodule "libs/JLC2KiCad_lib"]
+	path = libs/JLC2KiCad_lib
+	url = https://github.com/TousstNicolas/JLC2KiCad_lib.git
