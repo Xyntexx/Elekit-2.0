@@ -7,6 +7,8 @@ component_list = [
     "C2765186",  # USB Type-C Connector
     "C2934560",  # ESP32-C3-WROOM-02-N4
     "C318884",  # NO Push Button
+    "C964833",  # 2032 Coin Cell Battery Holder
+    "C5947",  # 74HC595D 8-Bit Shift Register
 
 ]
 
