@@ -1,4 +1,4 @@
-(module "BULETM-SMD_ESPRESSIF_ESP32-C3-WROOM-02-N4-4MB" (layer F.Cu) (tedit 6358A921)
+(module "BULETM-SMD_ESPRESSIF_ESP32-C3-WROOM-02-N4-4MB" (layer F.Cu) (tedit 636C0727)
   (descr "BULETM-SMD_ESPRESSIF_ESP32-C3-WROOM-02-N4-4MB footprint")
   (tags "BULETM-SMD_ESPRESSIF_ESP32-C3-WROOM-02-N4-4MB footprint")
   (fp_text reference REF** (at 0 -12.000025) (layer F.SilkS)

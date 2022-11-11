@@ -9,6 +9,8 @@ component_list = [
     "C318884",  # NO Push Button
     "C964833",  # 2032 Coin Cell Battery Holder
     "C5947",  # 74HC595D 8-Bit Shift Register
+    "C82942",  # ME6211C33M5G-N 3.3V LDO Regulator
+
 
 ]
 

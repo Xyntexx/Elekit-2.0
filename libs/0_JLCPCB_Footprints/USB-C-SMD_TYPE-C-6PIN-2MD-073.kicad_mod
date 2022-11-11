@@ -1,4 +1,4 @@
-(module "USB-C-SMD_TYPE-C-6PIN-2MD-073" (layer F.Cu) (tedit 6358A920)
+(module "USB-C-SMD_TYPE-C-6PIN-2MD-073" (layer F.Cu) (tedit 636C0724)
   (descr "USB-C-SMD_TYPE-C-6PIN-2MD-073 footprint")
   (tags "USB-C-SMD_TYPE-C-6PIN-2MD-073 footprint")
   (fp_text reference REF** (at 0 -5.675006) (layer F.SilkS)

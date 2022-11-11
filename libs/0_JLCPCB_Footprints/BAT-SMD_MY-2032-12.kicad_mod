@@ -1,4 +1,4 @@
-(module "BAT-SMD_MY-2032-12" (layer F.Cu) (tedit 6358AF02)
+(module "BAT-SMD_MY-2032-12" (layer F.Cu) (tedit 636C072A)
   (descr "BAT-SMD_MY-2032-12 footprint")
   (tags "BAT-SMD_MY-2032-12 footprint")
   (fp_text reference REF** (at 0 -9.810516) (layer F.SilkS)

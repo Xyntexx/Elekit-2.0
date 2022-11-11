@@ -1,4 +1,4 @@
-(module "SOIC-16_L9.9-W3.9-P1.27-LS6.0-BL" (layer F.Cu) (tedit 635976AF)
+(module "SOIC-16_L9.9-W3.9-P1.27-LS6.0-BL" (layer F.Cu) (tedit 636C072D)
   (descr "SOIC-16_L9.9-W3.9-P1.27-LS6.0-BL footprint")
   (tags "SOIC-16_L9.9-W3.9-P1.27-LS6.0-BL footprint")
   (fp_text reference REF** (at 0 -4.735585) (layer F.SilkS)
