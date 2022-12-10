@@ -10,6 +10,12 @@ component_list = [
     "C964833",  # 2032 Coin Cell Battery Holder
     "C5947",  # 74HC595D 8-Bit Shift Register
     "C82942",  # ME6211C33M5G-N 3.3V LDO Regulator
+    "C2681563",  # mini USB connector
+    "C106900",  # Optocoupler
+    "C353291",   # TVS Diode 28V. Alternative to C920187
+    "C8963",  # rs485 transceiver
+    "C474881",  # 5.0mm screw terminal block 2 pin
+
 
 
 ]
@@ -19,5 +25,6 @@ argumets = "-dir ./ -schematic_lib 0_JLCPCB_Symbols -footprint_lib 0_JLCPCB_Foot
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    sys.argv = ["JLC2KiCadLib", *component_list, *argumets]
+    sys.argv = ["JLC2KiCadLib", *component_list
+        , *argumets]
     JLC2KiCadLib.main()

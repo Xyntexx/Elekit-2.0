@@ -12,7 +12,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp d5097a8c-3c09-4796-b59c-1abb58f86d84)
   )
-  (fp_text user "ANTENNA" (at 0 -9.75) (layer "F.SilkS")
+  (fp_text user "ANTENNA" (at -6.500127 -9.100077) (layer "B.Mask")
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp f4057c6d-91f6-4600-a1e7-81f276cba4a7)
   )
@@ -88,7 +88,7 @@
     )
   )
   (model "C:/Users/Markus/source/repos/Elekit-2.0/libs/.//0_JLCPCB_Footprints/packages3d/BULETM-SMD_ESPRESSIF_ESP32-C3-WROOM-02-N4-4MB.wrl"
-    (offset (xyz 0 3.11 0))
+    (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
