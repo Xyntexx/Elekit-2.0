@@ -28,6 +28,6 @@ jobs:
           commit-message: "Add KiCad artifacts"
           title: "Update KiCad Artifacts"
           body: "Automatically generated KiCad artifacts."
-          base: ${{ github.head_ref }} # Creates pull request onto pull request or commit branch
+          base: main   # Specify the base branch where the changes will be merged
           branch: update-kicad-artifacts  # Specify the branch with changes to be merged
 
