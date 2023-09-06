@@ -2,7 +2,7 @@ on: push
 name: Generate kicad files
 jobs:
   Generate_kicad_files:
-    runs-on: ubuntu-lastest
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
       - uses: actions-for-kicad/setup-kicad@v1.0
