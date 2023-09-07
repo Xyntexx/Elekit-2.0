@@ -25,3 +25,7 @@ fp-info-cache
 *.xml
 *.csv
 /\#auto_saved_files\#
+*.zip
+/libs/0_JLCPCB_Footprintsbak/
+/Elekit2.0-backups/
+/jlcpcb/
