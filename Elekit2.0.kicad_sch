@@ -4122,7 +4122,7 @@
     (uuid 6256c597-076f-4b0f-af2f-55b4d8d68d71)
   )
   (text "VBUS" (at 208.28 166.37 0)
-    (effects (font (size 10 10)) (justify left bottom))
+    (effects (font (size 10 10) (color 44 152 18 1)) (justify left bottom))
     (uuid 6769bf3c-1945-46cc-a0ec-e70cfe10bc77)
   )
   (text "USB" (at 443.23 31.75 0)
