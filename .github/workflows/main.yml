@@ -16,24 +16,24 @@ jobs:
         with:
           files: Elekit2.0.kicad_sch
       - name: Setup Kicad
-        if: steps.changed-files-specific.outputs.any_changed == 'true' || !contains(github.event.head_commit.message, '[FORCE]')
+        if: steps.changed-files-specific.outputs.any_changed == 'true' || contains(github.event.head_commit.message, '[FORCE]')
         uses: actions-for-kicad/setup-kicad@v1.0
         with:
           version: '7.0'
       - name: Generate files
-        if: steps.changed-files-specific.outputs.any_changed == 'true' || !contains(github.event.head_commit.message, '[FORCE]')
+        if: steps.changed-files-specific.outputs.any_changed == 'true' || contains(github.event.head_commit.message, '[FORCE]')
         uses: actions-for-kicad/generate-kicad-files@v1.0
         with:
           file: './Elekit2.0.kicad_sch'
           type: 'schematic_pdf'
       - name: Rename Artifacts
-        if: steps.changed-files-specific.outputs.any_changed == 'true' || !contains(github.event.head_commit.message, '[FORCE]')
+        if: steps.changed-files-specific.outputs.any_changed == 'true' || contains(github.event.head_commit.message, '[FORCE]')
         run: |
           rm -f output/schematic.pdf
           mkdir -p output/
           mv ./Elekit2.0.pdf output/schematic.pdf
       - name: Commit and Push PDF
-        if: (steps.changed-files-specific.outputs.any_changed == 'true' || !contains(github.event.head_commit.message, '[FORCE]')) && steps.auto_tag_check.outcome != 'success' && steps.schematics_check.outcome != 'success'
+        if: (steps.changed-files-specific.outputs.any_changed == 'true' || contains(github.event.head_commit.message, '[FORCE]')) && steps.auto_tag_check.outcome != 'success' && steps.schematics_check.outcome != 'success'
         run: |
           # Commit the new PDF file
           git config user.name "Actions"
