@@ -3361,11 +3361,6 @@
     (stroke (width 0) (type default))
     (uuid 5c1a8465-0f74-49dc-bc1c-58925399e9b6)
   )
-  (polyline (pts (xy 13.97 284.48) (xy 13.97 389.89))
-    (stroke (width 0) (type default))
-    (uuid 5e46d85b-0442-487c-9b08-3bae5ffc4f88)
-  )
-
   (wire (pts (xy 499.11 290.83) (xy 501.65 290.83))
     (stroke (width 0) (type default))
     (uuid 5ee83bcf-6619-419a-82fd-a6977c50d2b1)
