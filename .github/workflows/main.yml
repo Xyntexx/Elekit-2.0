@@ -12,22 +12,27 @@ jobs:
         with:
           file: './Elekit2.0.kicad_sch'
           type: 'schematic_pdf'
-      - name: Commit Artifacts
+      - name: Rename Artifacts
         run: |
-          git config user.name "Your Name"
-          git config user.email "youremail@example.com"
-          git checkout -b update-kicad-artifacts
-          git add ./Elekit2.0.pdf
-          git commit -m "Add KiCad artifacts"
-          git push --set-upstream origin update-kicad-artifacts
-
-      - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v3
+          mv ./Elekit2.0.kicad_sch ./schematic.pdf
+      - name: Create Release
+        id: create_release
+        uses: actions/create-release@v1.0.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: "Add KiCad artifacts"
-          title: "Update KiCad Artifacts"
-          body: "Automatically generated KiCad artifacts."
-          base: main   # Specify the base branch where the changes will be merged
-          branch: update-kicad-artifacts  # Specify the branch with changes to be merged
+          files: |
+              output/schematic.pdf
+      - name: Get Release URL
+        id: release_url
+        run: echo "${{ steps.create_release.outputs.upload_url }}" > release_url.txt
+      - name: Publish Release URL
+        run: echo "::set-output name=RELEASE_URL::${{ steps.release_url.outputs.RELEASE_URL }}"
 
+  Publish_Release_URL:
+    needs: Generate_kicad_files
+    runs-on: ubuntu-latest
+    steps:
+      - name: Publish Release URL
+        run: |
+          echo "Release URL: ${{ needs.Generate_kicad_files.outputs.RELEASE_URL }}"
