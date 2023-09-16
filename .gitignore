@@ -29,3 +29,5 @@ fp-info-cache
 /libs/0_JLCPCB_Footprintsbak/
 /Elekit2.0-backups/
 /jlcpcb/
+*.kicad_sch-bak
+*.kicad_sch_old
