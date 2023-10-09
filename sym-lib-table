@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name "0_JLCPCB_Symbols")(type "KiCad")(uri "${KIPRJMOD}/libs/Schematic/0_JLCPCB_Symbols.kicad_sym")(options "")(descr ""))
+  (version 7)
+  (lib (name "0_JLCPCB_Symbols")(type "KiCad")(uri "${KIPRJMOD}/libs/symbol/0_JLCPCB_Symbols.kicad_sym")(options "")(descr ""))
 )
