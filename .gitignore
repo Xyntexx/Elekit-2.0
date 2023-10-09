@@ -31,3 +31,4 @@ fp-info-cache
 /jlcpcb/
 *.kicad_sch-bak
 *.kicad_sch_old
+*.lck
