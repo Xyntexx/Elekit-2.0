@@ -30,7 +30,7 @@ if __name__ == '__main__':
 
     # Check if user entered any parts
     if len(component_list) == 0:
-        print("No parts entered. Exiting...")
+        print("No parts entered.  Exiting...")
         sys.exit()
     sys.argv = ["JLC2KiCadLib", *component_list, *argumets]
     JLC2KiCadLib.main()
