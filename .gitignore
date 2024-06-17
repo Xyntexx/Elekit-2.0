@@ -32,3 +32,4 @@ fp-info-cache
 *.kicad_sch-bak
 *.kicad_sch_old
 *.lck
+*.kicad_prl
